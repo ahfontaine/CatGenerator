@@ -1,0 +1,102 @@
+# -*- coding: utf-8 -*-
+
+# Form implementation generated from reading ui file '.\mainwindow.ui'
+#
+# Created by: PyQt5 UI code generator 5.12.2
+#
+# WARNING! All changes made in this file will be lost!
+
+from PyQt5 import QtCore, QtGui, QtWidgets
+
+
+class Ui_MainWindow(object):
+    def setupUi(self, MainWindow):
+        MainWindow.setObjectName("MainWindow")
+        MainWindow.resize(466, 771)
+        self.centralwidget = QtWidgets.QWidget(MainWindow)
+        self.centralwidget.setObjectName("centralwidget")
+        self.verticalLayout = QtWidgets.QVBoxLayout(self.centralwidget)
+        self.verticalLayout.setObjectName("verticalLayout")
+        self.label_2 = QtWidgets.QLabel(self.centralwidget)
+        font = QtGui.QFont()
+        font.setPointSize(24)
+        self.label_2.setFont(font)
+        self.label_2.setMidLineWidth(0)
+        self.label_2.setAlignment(QtCore.Qt.AlignCenter)
+        self.label_2.setObjectName("label_2")
+        self.verticalLayout.addWidget(self.label_2)
+        self.label = QtWidgets.QLabel(self.centralwidget)
+        self.label.setAlignment(QtCore.Qt.AlignCenter)
+        self.label.setObjectName("label")
+        self.verticalLayout.addWidget(self.label)
+        self.CatNames = QtWidgets.QTextEdit(self.centralwidget)
+        sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Expanding, QtWidgets.QSizePolicy.Minimum)
+        sizePolicy.setHorizontalStretch(0)
+        sizePolicy.setVerticalStretch(0)
+        sizePolicy.setHeightForWidth(self.CatNames.sizePolicy().hasHeightForWidth())
+        self.CatNames.setSizePolicy(sizePolicy)
+        self.CatNames.setMinimumSize(QtCore.QSize(0, 0))
+        self.CatNames.setMaximumSize(QtCore.QSize(16777215, 50))
+        self.CatNames.setObjectName("CatNames")
+        self.verticalLayout.addWidget(self.CatNames)
+        self.label_6 = QtWidgets.QLabel(self.centralwidget)
+        self.label_6.setAlignment(QtCore.Qt.AlignCenter)
+        self.label_6.setObjectName("label_6")
+        self.verticalLayout.addWidget(self.label_6)
+        self.FrenchDesc = QtWidgets.QTextEdit(self.centralwidget)
+        self.FrenchDesc.setObjectName("FrenchDesc")
+        self.verticalLayout.addWidget(self.FrenchDesc)
+        self.label_5 = QtWidgets.QLabel(self.centralwidget)
+        self.label_5.setAlignment(QtCore.Qt.AlignCenter)
+        self.label_5.setObjectName("label_5")
+        self.verticalLayout.addWidget(self.label_5)
+        self.EngDesc = QtWidgets.QTextEdit(self.centralwidget)
+        self.EngDesc.setObjectName("EngDesc")
+        self.verticalLayout.addWidget(self.EngDesc)
+        self.label_4 = QtWidgets.QLabel(self.centralwidget)
+        self.label_4.setAlignment(QtCore.Qt.AlignCenter)
+        self.label_4.setObjectName("label_4")
+        self.verticalLayout.addWidget(self.label_4)
+        self.AdoptionFees = QtWidgets.QLineEdit(self.centralwidget)
+        self.AdoptionFees.setObjectName("AdoptionFees")
+        self.verticalLayout.addWidget(self.AdoptionFees)
+        self.label_3 = QtWidgets.QLabel(self.centralwidget)
+        self.label_3.setAlignment(QtCore.Qt.AlignCenter)
+        self.label_3.setObjectName("label_3")
+        self.verticalLayout.addWidget(self.label_3)
+        self.ContactPhone = QtWidgets.QTextEdit(self.centralwidget)
+        sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Expanding, QtWidgets.QSizePolicy.Minimum)
+        sizePolicy.setHorizontalStretch(0)
+        sizePolicy.setVerticalStretch(0)
+        sizePolicy.setHeightForWidth(self.ContactPhone.sizePolicy().hasHeightForWidth())
+        self.ContactPhone.setSizePolicy(sizePolicy)
+        self.ContactPhone.setMaximumSize(QtCore.QSize(16777215, 50))
+        self.ContactPhone.setObjectName("ContactPhone")
+        self.verticalLayout.addWidget(self.ContactPhone)
+        self.ExportBtn = QtWidgets.QPushButton(self.centralwidget)
+        self.ExportBtn.setObjectName("ExportBtn")
+        self.verticalLayout.addWidget(self.ExportBtn)
+        MainWindow.setCentralWidget(self.centralwidget)
+        self.menubar = QtWidgets.QMenuBar(MainWindow)
+        self.menubar.setGeometry(QtCore.QRect(0, 0, 466, 21))
+        self.menubar.setObjectName("menubar")
+        MainWindow.setMenuBar(self.menubar)
+        self.statusbar = QtWidgets.QStatusBar(MainWindow)
+        self.statusbar.setObjectName("statusbar")
+        MainWindow.setStatusBar(self.statusbar)
+
+        self.retranslateUi(MainWindow)
+        QtCore.QMetaObject.connectSlotsByName(MainWindow)
+
+    def retranslateUi(self, MainWindow):
+        _translate = QtCore.QCoreApplication.translate
+        MainWindow.setWindowTitle(_translate("MainWindow", "Cat Generator 3000"))
+        self.label_2.setText(_translate("MainWindow", "Cat Generator 3000"))
+        self.label.setText(_translate("MainWindow", "Cat(s) Name(s)l"))
+        self.label_6.setText(_translate("MainWindow", "French Description"))
+        self.label_5.setText(_translate("MainWindow", "English Description"))
+        self.label_4.setText(_translate("MainWindow", "Adoption Fees"))
+        self.label_3.setText(_translate("MainWindow", "Contact Phone"))
+        self.ExportBtn.setText(_translate("MainWindow", "Export Kitty"))
+
+
